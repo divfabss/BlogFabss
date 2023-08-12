@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogFrontEnd</title>
+    <meta name="description" content="Página web de blog de café">
+
+    <!-- Prefetch -->
+    <link rel="prefetch" href="nosotros.html" as="document">
+
+    <!-- Preload -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"  crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DivFabss</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin">Blog de Web Design con consejos</h2>
+            <p class="no-margin">Aprende todo acerca del Front-End</p>
+        </div>
+    </header>
+
+    <div class="contenedor contenido-principal">
+        <main class="blog">
+            <h3>Nuestro Blog</h3>
+
+        <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <img loading="lazy" src="img/Colores-para-C-.webp" alt="imagen blog"> 
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Colores en C++</h4>
+                    <p>En este emocionante blog, exploraremos el fascinante mundo de los colores en el lenguaje de programación C++. El color es una de las formas más poderosas de dar vida a tus programas y hacer que destaquen entre la multitud. Si eres un entusiasta de la programación y deseas aprender cómo incorporar colores a tus proyectos en C++, este es el lugar perfecto para ti</p>
+                    <a href="entrada.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+        </article>
+
+        <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <img loading="lazy" src="img/readme.webp" alt="imagen blog"> 
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Personalizar ReadMe Github</h4>
+                    <p>En este blog, descubriremos cómo llevar tu README de GitHub al siguiente nivel y convertirlo en una herramienta poderosa para presentar tu proyecto de una manera atractiva y profesional. Un README es la primera impresión que los visitantes tendrán de tu repositorio, y una presentación aburrida podría alejar a los posibles colaboradores y usuarios interesados. </p>
+                    <a href="entrada3.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+        </article>
+
+            <h3>Proyectos Destacados</h3>
+        <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <img loading="lazy" src="img/banner-_1_.webp" alt="imagen blog"> 
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Github Search</h4>
+                    <p>🔍 Búsqueda Directa: Simplemente ingresa tu nombre de usuario de GitHub en la barra de búsqueda y obtén de inmediato tus datos públicos relevantes. No más desplazamientos innecesarios, ¡encuentra lo que buscas en segundos!</p>
+                    <a href="https://githubprofilefabss.netlify.app/" target="_blank" class="boton boton--primario">Ver Proyecto</a>
+                </div>
+
+                <div class="entrada__imagen">
+                    <picture>
+                        <img loading="lazy" src="img/bannerpr (1).webp" alt="imagen blog"> 
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Rick And Morty API</h4>
+                    <p>🔍 Búsqueda Directa: Simplemente ingresa tu nombre de usuario de GitHub en la barra de búsqueda y obtén de inmediato tus datos públicos relevantes. No más desplazamientos innecesarios, ¡encuentra lo que buscas en segundos!</p>
+                    <a href="https://ricksandmortyyapi.netlify.app/" target="_blank" class="boton boton--primario">Ver Proyecto</a>
+                </div>
+
+        </article>
+        </main>
+        <aside class="sidebar">
+            <h3>Redes Sociales/Información</h3>
+
+            <ul class="cursos no-padding">
+                <li class="widget-curso">
+                    <h4 class="no-margin">Tik Tok</h4>
+                    <p class="widget-curso__label">Videos Diarios: 
+                        <span class="widget-curso__info">Front End</span>
+                    </p>
+                    <p class="widget-curso__label">Usuario: 
+                        <span class="widget-curso__info">div_fabss</span>
+                    </p>
+                    <a href="https://www.tiktok.com/@div_fabss" target="_blank" class="boton boton--secundario"><i class="bi bi-tiktok"></i> Link Perfil Tik Tok</a>
+                </li>
+
+                <li class="widget-curso">
+                    <h4 class="no-margin">Instagram Personal</h4>
+                    <p class="widget-curso__label">Contenido Diario:
+                        <span class="widget-curso__info">Superación Personal</span>
+                    </p>
+                    <p class="widget-curso__label">Usuario: 
+                        <span class="widget-curso__info">f_alvarez16</span>
+                    </p>
+                    <a href="https://www.instagram.com/f_alvarez16/" target="_blank"class="boton boton--secundario"><i class="bi bi-instagram"></i> Link Perfil Instagram</a>
+                </li>
+
+                <li class="widget-curso">
+                    <h4 class="no-margin">GitHub</h4>
+                    <p class="widget-curso__label">Contenido Mensual:
+                        <span class="widget-curso__info">Repositorios-Proyectos</span>
+                    </p>
+                    <p class="widget-curso__label">Usuario: 
+                        <span class="widget-curso__info">tostyxx</span>
+                    </p>
+                    <a href="https://github.com/tostyxx"target="_blank"class="boton boton--secundario"><i class="bi bi-github"></i> Link Perfil GitHub</a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DivFabss</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/modernizr.js"></script>
+</body>
+</html>
